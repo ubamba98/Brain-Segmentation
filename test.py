@@ -1,4 +1,4 @@
-from utils.losses import dice_coefficient, dice_loss
+from utils.losses import *
 from utils.preprocess import *
 from keras.models import load_model
 
@@ -12,10 +12,11 @@ def predict(T1_path,FLAIR_path,IR_path,label):
             X = np.array(T1>=150).astype(np.uint8)[None,None,...]
         else:
             X = np.array((T1>=80) & (T1<160)).astype(np.uint8)[None,None,...]
-        y_pred = model.predict(X).squeeze()
+        y_pred = model.predict(X)
     else:
-        T1 = histeq(to_uint8(get_data_with_skull_scraping(T1_path)))
-        IR = IR_to_uint8(get_data(IR_path))
-        FLAIR = to_uint8(get_data(FLAIR_path))
-        y_pred = model.predict([T1,FLAIR,IR]).squeeze()
+        T1 = histeq(to_uint8(get_data_with_skull_scraping(T1_path)))[None,None,...]
+        IR = IR_to_uint8(get_data(IR_path))[None,None,...]
+        FLAIR = to_uint8(get_data(FLAIR_path))[None,None,...]
+        y_pred = model.predict([T1,FLAIR,IR])
     return y_pred
+
