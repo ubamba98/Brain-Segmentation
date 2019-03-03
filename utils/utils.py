@@ -40,7 +40,7 @@ def visualize(PATH, View = "Axial_View",cmap = None):
         else:
             plt.imshow(img1[:,:,i], cmap = cmap)
         plt.show()
-        plt.pause(0.01)
+        plt.pause(0.1)
     print(f"Shape of image:{img1.shape}")
 
 def data_train(root = "./"):
