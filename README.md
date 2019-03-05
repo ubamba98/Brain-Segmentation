@@ -60,7 +60,8 @@ Dice coefficient is used as Loss function in final training though Jaccard dista
 </div> 
 
 # Results
-<img src="./res/result1.png" align="left" height="243px"> <img src="./res/result2.png" align="right" height="243px"><br>
+<img src="./res/result1.png" align="left" height="245px"> <img src="./res/result2.png" align="right" height="245px"><br>
+
 On 148: 
 
 | *Label* | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
