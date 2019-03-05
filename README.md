@@ -59,7 +59,7 @@ Dice coefficient is used as Loss function in final training though Jaccard dista
 <img src="./res/label7.png" align="left" height="280px"> <img src="./res/label8.png" align="right" height="280px">
 </div> 
 
-# Results
+# Results (On Validation Data)
 <img src="./res/result1.png" align="left" height="245px"> <img src="./res/result2.png" align="right" height="245px"><br>
 
 | *Label* | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
