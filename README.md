@@ -53,12 +53,12 @@ Dice coefficient is used as Loss function in final training though Jaccard dista
 
 # Learning Curves
 <div> 
-<img src="./res/label1.png" align="left" height="275px"> <img src="./res/label2.png" align="right" height="275px">
-<img src="./res/label3.png" align="left" height="275px"> <img src="./res/label4.png" align="right" height="275px">
-<img src="./res/label5.png" align="left" height="275px"> <img src="./res/label6.png" align="right" height="275px">
-<img src="./res/label7.png" align="left" height="275px"> <img src="./res/label8.png" align="right" height="275px">
+<img src="./res/label1.png" align="left" height="280px"> <img src="./res/label2.png" align="right" height="280px">
+<img src="./res/label3.png" align="left" height="280px"> <img src="./res/label4.png" align="right" height="280px">
+<img src="./res/label5.png" align="left" height="280px"> <img src="./res/label6.png" align="right" height="280px">
+<img src="./res/label7.png" align="left" height="280px"> <img src="./res/label8.png" align="right" height="280px">
 </div> 
-&nbsp
+
 # Results
 <img src="./res/result1.png" align="left" height="243px"> <img src="./res/result2.png" align="right" height="243px"><br>
 On 148: 
