@@ -18,5 +18,5 @@ def predict(T1_path,FLAIR_path,IR_path,label):
         IR = IR_to_uint8(get_data(IR_path))[None,None,...]
         FLAIR = to_uint8(get_data(FLAIR_path))[None,None,...]
         y_pred = model.predict([T1,FLAIR,IR])
-    return y_pred
+    return y_pred.squeeze()
 
