@@ -1,1 +1,2 @@
-# MRBrainS-SIH2019
+# Brain Segmentation
+Dataset used: MRBrainS18
