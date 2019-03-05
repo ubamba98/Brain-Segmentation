@@ -62,8 +62,6 @@ Dice coefficient is used as Loss function in final training though Jaccard dista
 # Results
 <img src="./res/result1.png" align="left" height="245px"> <img src="./res/result2.png" align="right" height="245px"><br>
 
-On 148: 
-
 | *Label* | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 | :-----: | :-----: | :------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | 
 | *Dice coefficient* | 0.702 | 0.758 | 0.770 | 0.746 | 0.704 | 0.882 | 0.887 | 0.855 |
