@@ -53,10 +53,10 @@ Dice coefficient is used as Loss function in final training though Jaccard dista
 
 # Learning Curves
 <div> 
-<img src="./res/label1.png" align="left" height="280px"> <img src="./res/label2.png" align="right" height="280px">
-<img src="./res/label3.png" align="left" height="280px"> <img src="./res/label4.png" align="right" height="280px">
-<img src="./res/label5.png" align="left" height="280px"> <img src="./res/label6.png" align="right" height="280px">
-<img src="./res/label7.png" align="left" height="280px"> <img src="./res/label8.png" align="right" height="280px">
+<img src="./res/label1.png" align="left" height="275px"> <img src="./res/label2.png" align="right" height="275px">
+<img src="./res/label3.png" align="left" height="275px"> <img src="./res/label4.png" align="right" height="275px">
+<img src="./res/label5.png" align="left" height="275px"> <img src="./res/label6.png" align="right" height="275px">
+<img src="./res/label7.png" align="left" height="275px"> <img src="./res/label8.png" align="right" height="275px">
 </div> 
 
 # Results
@@ -72,3 +72,5 @@ On 148:
 - Generalised Dice overlap as a deep learning loss function for highly unbalanced segmentations (<https://arxiv.org/abs/1707.03237>)
 - U-Net: Convolutional Networks for Biomedical Image Segmentation (<https://arxiv.org/pdf/1505.04597.pdf>)
 - MRBrainS18 (<https://mrbrains18.isi.uu.nl/>)
+---
+> This project was made as part of the [Smart India hackathon 2018 - Software Edition](https://www.sih.gov.in/sih2018Software), a 36 hour hackathon organised by Government of India. The problem statement was given by [Department of Atomic Energy, India](http://www.dae.nic.in/)
